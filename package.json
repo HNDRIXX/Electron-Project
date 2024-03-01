@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "icon": "favicon.ico",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "electron . --inspect=5858",
+    "dev:watch": "electron-reloader ./ --inspect=5858"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-reloader": "^1.2.3",
+    "electron-winstaller": "^5.2.2",
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
